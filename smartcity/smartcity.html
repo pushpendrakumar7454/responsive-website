@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Smartcity</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="smartcity.css">
+    </head>
+    <body>
+      <!-- Button trigger modal -->
+       
+
+
+<!-- Modal -->
+<div class="modal fade" id="enmodel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <div class="mb-3">
+  <label class="form-label">Name</label>
+  <input type="email" class="form-control"  placeholder="Enter Name">
+</div>
+<div class="mb-3">
+  <label class="form-label">Email</label>
+  <input type="email" class="form-control"  placeholder="Enter Email">
+</div>
+<div class="mb-3">
+  <label class="form-label">Password</label>
+  <input type="email" class="form-control"  placeholder="Enter Password">
+</div>
+<div class="mb-3">
+  <label class="form-label">Phone No.</label>
+  <input type="email" class="form-control"  placeholder="Enter Contact no.">
+</div>
+<div class="mb-3">
+  
+  <input type="submit" class="form-control bg-primary text-white" value="Submit">
+</div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+       <div class="container-fluid">
+<div class="bg-white shadow d-flex align-items-center justify-content-between p-2 position-fixed w-100 top-0 start-0" style="z-index: 1030;">
+  <div><img src="images/lobo1.png" class="lobo"></div>
+  <p class="fw-bold text-info">Overview</p>
+  <p class="fw-bold text-info">Project<br> Highlights</p>
+  <p class="fw-bold text-info">Site <br>plan</p>
+  <p class="fw-bold text-info">Location</p>
+  <p class="fw-bold text-info">Price <br>list</p>
+  <p class="fw-bold text-info">Gallery</p>
+  <p class="fw-bold text-info">Contact <br>us</p>
+  <div class="book">
+     <a href="#"> <p  data-bs-toggle="modal" data-bs-target="#enmodel">Book online</p></a>
+  </div>
+  <div class="call">
+      <p>Call us at:<br>755793547</p>
+  </div>
+</div><br><br>
+
+<div id="carouselExampleIndicators" class="carousel slide mt-5">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/city.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/city2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/city3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- ✅ Bootstrap JS -->
+
+
+<div class="nav">
+<div class="name">
+<p class="are-one">Are you interested in FREE Site Visit</p>
+<input type="text"placeholder="enter name"class="input">
+<input type="text"placeholder="enter phone"class="input">
+<input type="text"placeholder="enter email"class="input">
+<input type="submit"value="BOOK A FREE SITE VISIT"class="inpute" data-bs-toggle="modal" data-bs-target="#enmodel">
+
+</div>
+</div>
+<div class="smart-city">
+<div class="container-fluid ">
+    <div class="row ">
+        <div class="col-12  smart-city ">
+            <h1 class="text-center fw-semibold text-primary">WHY SMART CITY ?</h1>
+            <p class="text-center">Your Dream Home Awaits you to Own Exquisite Site in the Smart City</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid ">
+    <div class="row smart-city">
+    
+        
+            <div class="col-4 bg-primary hello ">
+                <h1 class="text-white ">100% Smart city Water</h1>
+
+            </div>
+            <div class="col-4 bg-primary hello">
+                <h1 class="text-white">Portle drinking water</h1>
+
+            </div>
+            <div class="col-4 bg-primary  hello">
+                <h1 class="text-white">Day to Day needs 100% water</h1>
+          
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container mt-5">
+  <div class="row align-items-center">
+    <!-- Left side image -->
+    <div class="col-6">
+      <img src="images/1.jpeg" class="img-fluid" alt="Project Image">
+    </div>
+
+    <!-- Right side heading -->
+    <div class="col-6">
+      <h1 class="fw-bold text-primary project">PROJECT OVERVIEW</h1>
+      <p class="project">Smart City Mohali is a 22-acre fully integrated plotted development project in Banur-Landran Road Mohali, that includes 446 Residential plots Near Aero City & IT City Mohali with exceptional amenities and intelligent landscaping. The project provides excellent family living options as well as first-rate recreational facilities and amenities to make your life easier. This property has something for everyone, from the clubhouse to the indoor game area, children's playground, yoga & meditation hall, party hall, business center, and cafeteria.
+
+Smart City Mohali is a 100% clear title project and a bank-approved plot with a full campus compounded wall, an underground EB line, grand elevation architecture, and more. Smart City Mohali will be an ideal place to live with your family as well as work and play.</p>
+<p class="project"> Plot Size - 80/100/110/137 Sq.Yards</p>
+  <p class="project">1. Price Starts From - ₹ 25.60 Lakhs</p>
+  <p class="project">2. RERA Approved</p>
+  <p class="project">3. Possession - Immediate</p>
+  <button class="btn btn-success w-50 fs-5" data-bs-toggle="modal" data-bs-target="#enmodel">Book Now</button>
+    </div>
+  </div>
+</div>
+<nav class="mt-5 mobile">
+<div class="container-fluid">
+  <h1 class="text-center fw-semibold text-primary">MORE THAN JUST A PLOT</h1>
+  <p class="text-center p-2">Everything one can find in terms of comfort and convenience is what you can expect at this prestigious project. To achieve this, Smart City Mohali,Near Aerocity Mohali Plots an array of unparalleled facilities that ooze out comfort and conveniences that smack luxury to give life a new direction to effortless living.</p>
+  
+</nav>
+</div>
+
+<section class="mobile ">
+  <div class="load">
+    <div class="a1">
+      <img src="images/a1.png" width="130px" alt="Security Icon">
+      <h3 class="fw-semibold">24x7 Security</h3>
+    </div>
+    <div class="a1">
+      <img src="images/a2.png" width="130px" alt="Education Icon">
+      <h3 class="fw-semibold">CLOSE TO<br> EDUCATION <br>INSTITUTE</h3>
+    </div>
+    <div class="a1">
+      <img src="images/a3.png" width="130px" alt="Play Icon">
+      <h3 class="fw-semibold">KIDS PLAY AREA</h3>
+    </div>
+    <div class="a1">
+      <img src="images/a4.jpg" width="130px" alt="Aero Icon">
+      <h3 class="fw-semibold text-uppercase">NEAR AERO CITY &<br> IT CITY MOHALI</h3>
+    </div>
+  </div>
+
+  <div class="loaded">
+    <div class="a1">
+      <h3 class="fw-semibold text-uppercase">PART OF 22 ACRE <br>TOWNSHIP</h3>
+      <img src="images/a5.png" width="130px" alt="Township Icon">
+    </div>
+    <div class="a1">
+      <h3 class="fw-semibold text-uppercase">400+ RESIDENCE</h3>
+      <img src="images/a6.png" width="130px" alt="Residence Icon">
+    </div>
+    <div class="a1">
+      <h3 class="fw-semibold text-uppercase">WELL-CONNECTED<br> ROAD & RAIL</h3>
+      <img src="images/a7.jpg" width="130px" alt="Road Icon">
+    </div>
+    <div class="a1">
+      <h3 class="fw-semibold text-uppercase">AVENUE PLANTIO</h3>
+      <img src="images/a8.jpg" width="130px" alt="Plantio Icon">
+    </div>
+  </div>
+</section>
+<div class="container">
+  <div class="row">
+    <div class="col-12 d-flex flex-column align-items-center p-5">
+      <img src="images/row.jpg" width="250px">
+      <h3 class="text-center mt-3 p-3 fw-bold fs-5">PBRERA-SAS81-PR0693</h3>
+    </div>
+  </div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-12">
+  <hr>
+  <p>Bring your dream home to life at SmartCity, a project that has the best gated community plots in Mohali. Perfectly located, thoughtfully developed, and the best value for money property of sale near AeroCity Mohali, are the highlights of this stellar project.</p><br>
+  <p>With a host of amenities like compound walls, street lighting, independent drinking water connections, and children’s park to name a few, SmartCity is the ideal space to build a home that nourishes your family and bring prosperity to your life.</p><br>
+  <p class="fw-bold text-dark">Registry Ready Plots Rera No - PBRERA-SAS81-PR0693</p><br>
+</div>
+</div>
+</div>
+<div class="container my-5">
+  <div class="row text-center g-3 justify-content-center">
+    <div class="col-12 col-md-3 bg-white shadow p-4">
+      <img src="images/g1.png" class="img-fluid mb-2">
+      <h2 class="fw-bold mb-0">446</h2>
+      <h3 class="fw-semibold">PLOTS</h3>
+    </div>
+
+    <div class="col-12 col-md-3 bg-white shadow p-4">
+      <img src="images/g2.png" class="img-fluid mb-2">
+      <h2 class="fw-bold mb-0">22</h2>
+      <h3 class="fw-semibold">ACRES</h3>
+    </div>
+
+    <div class="col-12 col-md-3 bg-white shadow p-4">
+      <img src="images/g3.png" class="img-fluid mb-2">
+      <h2 class="fw-bold mb-0">20 Lifestyle</h2>
+      <h3 class="fw-semibold">AMENITIES</h3>
+    </div>
+
+    <div class="col-12 col-md-3 bg-white shadow p-4">
+      <img src="images/g4.png" class="img-fluid mb-2">
+      <h2 class="fw-bold mb-0">20</h2>
+      <h3 class="fw-semibold">LAKHS*</h3>
+    </div>
+  </div>
+</div>
+
+  <h1 class="fw-semibold text-center p-5 text-primary">PRICE LIST</h1>
+  <div class="p-0"><hr><div>
+    <h4 class="text-center fw-semibold text-primary">AVAIL LIMITED PERIOD OFFERS</h4>
+    <table>
+      <tr class="bg-primary">
+         <td  colspan="2"><h6 class="text-center fw-bold">SMART CITY Plots Near Aero City Mohali– Landran-Banur Road</h6><h6 class="text-center fw-semibold">
+Register To Unlock Special Offer Prices Now</h6></td>
+     </tr> 
+      
+      <tr class="bg-primary">
+        
+         <td ><h6 class="text-center fw-bold">Plot Size</h6></td> 
+         <td><center><button class="btn btn-dark  my-btn" data-bs-toggle="modal" data-bs-target="#enmodel"><i class="fa-solid fa-lock"></i>Unlock price</button></center></td>
+        </tr>
+       <tr>
+         <td><h6 class="text-center fw-bold">80 Sq.Yards</h6></td> </td>
+          <td><center><button class="btn btn-dark  my-btn" data-bs-toggle="modal" data-bs-target="#enmodel"><i class="fa-solid fa-lock"></i>Unlock price</button></center></td> 
+         </tr> 
+       <tr>
+         <td><h6 class="text-center fw-bold">100 Sq.Yards</h6></td> </td> 
+         <td><center><button class="btn btn-dark  my-btn" data-bs-toggle="modal" data-bs-target="#enmodel"><i class="fa-solid fa-lock"></i>Unlock price</button></center></td> 
+         </tr> 
+       <tr> 
+        <td><h6 class="text-center fw-bold">110 Sq.Yards</h6></td> </td> 
+        <td><center><button class="btn btn-dark  my-btn" data-bs-toggle="modal" data-bs-target="#enmodel"><i class="fa-solid fa-lock"></i>Unlock price</button></center></td> 
+      </tr> 
+       <tr>
+         <td><h6 class="text-center fw-bold">137 Sq.Yards</h6></td> 
+      <td><center><button class="btn btn-dark  my-btn" data-bs-toggle="modal" data-bs-target="#enmodel"><i class="fa-solid fa-lock"></i>Unlock price</button></center></td>
+         </tr>
+    </table><br>
+    <div class="row">
+      <div class="col-12">
+       <center> <img src="images/nature.jpg"class="img-fluid"></center>
+      </div>
+    </div><br>
+    <div>
+      <h1 class="text-center text-primary fw-semibold">HIGHLIGHTS OF SMARTCITY</h1>
+      <hr>
+    </div>
+    <div class="container mt-4">
+  <div class="row text-center">
+    <div class="col-4">
+      <img src="images/r1.png" class="img-fluid d-block mx-auto mb-2">
+      <h7>Ready To Construct Plots Starting At 20 Lakhs*</h7>
+    </div>
+
+    <div class="col-4">
+      <img src="images/r2.png" class="img-fluid d-block mx-auto mb-2">
+      <h7>Premium Small Size Plots Nestled Amidst Abundant Greenery</h7>
+    </div>
+
+    <div class="col-4">
+      <img src="images/r3.png" class="img-fluid d-block mx-auto mb-2">
+      <h7>Multiple Landscaped Gardens & Walking Track</h7>
+    </div>
+  </div>
+</div>
+<div class="container mt-4">
+  <div class="row text-center">
+    <div class="col-4">
+      <img src="images/r4.png" class="img-fluid d-block mx-auto mb-2">
+      <h7>446 Residential Plots Spanning Across 22 Acres</h7>
+    </div>
+
+    <div class="col-4">
+      <img src="images/r5.png" class="img-fluid d-block mx-auto mb-2">
+      <h7>Just 5 Mins Drive From Infosys & IT City Mohali</h7>
+    </div>
+
+    <div class="col-4">
+      <img src="images/r6.png" class="img-fluid d-block mx-auto mb-2">
+      <h7>10 Mins Drive From Chandigarh International Airport</h7>
+    </div>
+  </div>
+</div>
+<div class="container mt-4">
+  <div class="row text-center">
+    <div class="col-4">
+      <img src="images/r7.png" class="img-fluid d-block mx-auto mb-2">
+      <h7>2 Km from Patiala Road Toll Booth</h7>
+    </div>
+
+    <div class="col-4">
+      <img src="images/r8.png" class="img-fluid d-block mx-auto mb-2">
+      <h7>5 Min From Amity University & Chitkara University</h7>
+    </div>
+
+    <div class="col-4">
+      <img src="images/r9.png" class="img-fluid d-block mx-auto mb-2">
+      <h7>Excellent connectivity to Punjab/HP/Haryana Via PR-7</h7>
+    </div>
+  </div>
+</div>
+<div class="container mt-4">
+  <div class="row text-center">
+    <div class="col-4">
+      <img src="images/r10.png" class="img-fluid d-block mx-auto mb-2">
+      <h7>Premium & Affordable Plots Near Aerocity Mohali</h7>
+    </div>
+
+    <div class="col-4">
+      <img src="images/r11.png" class="img-fluid d-block mx-auto mb-2">
+      <h7>Major Upcoming Infrastructure Development Projects by Punjab Govt.</h7>
+    </div>
+
+    <div class="col-4">
+      <img src="images/r12.png" class="img-fluid d-block mx-auto mb-2">
+      <h7>Ready To Register With Bank Loan Assistance</h7>
+    </div>
+  </div><br><br><br>
+ 
+  
+  <h2 class="text-center fw-semibold text-capitalize text-primary">EXPEREWNCE TTHE LOCATION OF SMART CITY PROJECT</h2>
+  <p class="text-center">Checkout the videos to know more about the 22 Acres Plotted Development & Prime Location Advantages it has to offer.</p>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-6"><img src="images/d4.webp"class="img-ul"></div>
+      <div class="col-6"><img src="images/de2.jpg"class="img-ul"></div>
+  </div>
+</div><br><br>
+<h1 class="text-center fw-semibold text-primary pt-5">SIDE PLAN</h1>
+<p class="text-center">Adj. Bharat Petrol Pump, Near Upcoming Aerocity Extension, Mohali</p>
+<a href="images/f1.jpg"><center><img src="images/f1.jpg" class="img-f"></center></a><br><br>
+ <center><button class="btn-mk"><h3 class="fw-bold fs-4 text-center" data-bs-toggle="modal" data-bs-target="#enmodel">BOOK SITE VISIT</h3></button></center><br><br><br>
+ <h2 class="text-center fw-semibold text-capitalize text-primary"> LOCATION</h2><br>
+  <p class="text-center"> Your Dream Home Awaits you to Own Exquisite Site in the Smart City</p>
+  <a href="images/map.jpg"><center><img src="images/map.jpg" class="img-f"></center></a><br><br>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.797762660258!2d75.78504137496107!3d26.84669398315679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db6e2b6e333f5%3A0x85b1c5b79f7a606!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1710000000000"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+  <div class="container">
+  <h1 class="text-center fs-2 text-primary fw-bold pt-5" >IMPORTANT LANDMARKS</h1><br><br>
+ <div class="accordion" id="accordionExample">
+
+  <div>
+    <h2>
+      <a href="javascript:void(0)"> <p class="topp" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+        +KEY LOCATIONS
+      </p></a>
+   
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Infosys Mohali<br>
+       IT City Mohali<br>
+     Aero City Mohali<br>
+     Chandigarh Internatiol Airport<br>
+      Amity University<br>
+      Chitkara University<br>
+    Plaksha University<br>
+    CGC Landranbr<br>
+   Manav Rachna International School<br>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+ <a href="javascript:void(0)"> <p class="topp" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+       -SCHOOLS
+      </p></a>
+      <hr>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Sri Kumaran School<br>
+       Delhi Public School<br>
+       Jain International School
+      </div>
+    </div>
+  </div></div>
+  <div class="container">
+  <a href="javascript:void(0)"> <p class="topp" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+      -HOSPITALS
+      </p></a>
+      <hr>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Neelam Hospital<br>
+      Fortis Hospital Mohali<br>
+      Civil Hospital Banur
+      </div>
+    </div>
+    </div>
+  </div>
+    </div>
+  </div></div>
+  </div>
+</div>
+</div>
+</div>
+ 
+  </div>
+  <div class="container">
+    <h1 class="text-center fs-2 text-primary fw-bold pt-5">AMENITIES</h1><br><br>
+    <p class="text-center"> Your Dream Home Awaits you to Own Exquisite Site in the Smart City Mohali Project.</p>
+  </div>
+
+
+<div class="container py-4">
+  <div class="row d-flex justify-content-center align-items-center">
+
+    <!-- First image -->
+    <div class="col text-center">
+      <img src="data:image/png;base64,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" alt="Villa Plots Off Kanakapura Road South Bangalore near JP Nagar">
+      <h4 class="mt-2">BUTTERFLY GARDEN</h4>
+    </div>
+
+    <!-- Second image -->
+    <div class="col text-center">
+    <img src="data:image/png;base64,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" alt="Villa Plots Off Kanakapura Road South Bangalore near JP Nagar">
+      <h4 class="mt-2"><LAWNS></LAWNS> GARDEN</h4>
+    </div>
+    <div class="col text-center">
+    <img src="data:image/png;base64,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" alt="Villa Plots Off Kanakapura Road South Bangalore near JP Nagar">
+      <h4 class="mt-2">HERBE GARDEN</h4>
+    </div>
+    <div class="col text-center">
+    <img src="data:image/png;base64,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" alt="Villa Plots Off Kanakapura Road South Bangalore near JP Nagar">
+      <h4 class="mt-2">FLOWER GARDEN</h4>
+    </div>
+    <div class="col-md-3 text-center">
+    <img src="data:image/png;base64,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" alt="Villa Plots Off Kanakapura Road South Bangalore near JP Nagar">
+      <h4 class="mt-2">WALKING TRACK</h4>
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-12"><h1 class="text-center text-primary fw-bold fs-1">FAQS</h1></div><br>
+    <p class="text-center">Your Dream Home Awaits you to Own Exquisite Site in the Smart CityCity Mohali Project.</p><br><br>
+
+   <div class="accordion" id="accordionExample">
+
+  <div>
+    <h2>
+      <a href="javascript:void(0)"> <p class="top" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+        Where is it located?
+      </p></a>
+      <hr>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>SMART CITY Plotted Development is located Off Main Road - South Mohali.</p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h2>
+      <a href="javascript:void(0)"> <p class="top" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+       How Far is SMART CITY fromaero city?
+      </p></a>
+      <hr>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>SMART CITY Plotted Development is located Off Main Road - South Mohali.
+          The project is just a 5 Mins Drive Away from the Aero City & IT City Mohal
+        </p>
+      </div>
+    </div>
+  </div></div>
+
+  <div>
+    <h2>
+      <a href="javascript:void(0)"> <p class="top" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+     Hoe Many plots unit are there?
+      </p></a>
+      <hr>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>SMART CITY offers 446 premium plots Near Aero City. Main Road - South Mohali.</p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h2>
+      <a href="javascript:void(0)"> <p class="top" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+      What is the Total Land area?
+      </p></a>
+      <hr>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>The unique plotted development spans across 22 acres.</p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h2>
+      <a href="javascript:void(0)"><p class="top" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+       What is the area of ploates?
+      </p></a>
+      <hr>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>The area of plots ranges from 80 Gaz To 150 Gazouth Mohali.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+</div>
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-12">
+      <h1 class="text-center fw-bold text-primary fs-2 mt-5">PROJECT GALLARY</h1>
+
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="row mt-5 d-flex justify-content-between justify-content-center">
+    <div class="col-3">
+      <img src="images/zs1.jpeg "class="img-fluid pani">
+    
+    </div>
+ <div class="col-3">
+  <img src="images/zs2.jpeg "class="img-fluid pani">
+     
+
+    </div>
+ <div class="col-3">
+  <img src="images/zs3.jpeg "class="img-fluid pani">
+     
+
+    </div>
+ <div class="col-3">
+  <img src="images/zs4.jpeg "class="img-fluid pani">
+     
+
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="row mt-5 d-flex  justify-content-center">
+    <div class="col-3">
+      <img src="images/zs5.jpeg "class="img-fluid pani">
+    
+    </div>
+ <div class="col-3">
+  <img src="images/zs6.jpeg "class="img-fluid pani">
+     
+
+    </div>
+ <div class="col-3">
+  <img src="images/zs7.jpeg "class="img-fluid pani">
+     
+
+    </div>
+ <div class="col-3">
+  <img src="images/zs8.jpeg "class="img-fluid pani">
+     
+
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="row mt-5 d-flex justify-content-between justify-content-center">
+    <div class="col-3">
+      <img src="images/zs9.jpeg "class="img-fluid pani">
+    
+    </div>
+ <div class="col-3">
+  <img src="images/zs10.jpeg "class="img-fluid pani">
+     
+
+    </div>
+ <div class="col-3">
+  <img src="images/zs11.jpeg "class="img-fluid pani">
+     
+
+    </div>
+ <div class="col-3">
+  <img src="images/zs12.jpeg "class="img-fluid pani">
+     
+
+    </div>
+
+  </div>
+</div>
+
+<div class=" container d-flex gap-3"> 
+  <img src="images/zs13.jpeg"class=" mt-3 chalo">
+  <img src="images/zs14.jpeg"class=" mt-3  chalo">
+</div><br></br><br>
+<h1  class="text-center fs-2 text-primary fw-bold pt-5">HOME LOAN FACILITIES</h1>
+<p class="text-center pt-3">Your Dream Home Awaits you to Own Exquisite Site in the Smart City Mohali Project.</p>
+
+<div class="container">
+  <div class="row d-flex justify-content-between gap-4 ">
+    <div class="col shadow">
+      <img src="images/ic1.png" class="img-fluid">
+
+    </div>
+    <div class="col shadow">
+      <img src="images/ic2.png"class="img-fluid">
+
+    </div>
+    <div class="col shadow">
+      <img src="images/ic3.png"class="img-fluid">
+
+    </div>
+    <div class="col shadow">
+      <img src="images/ic4.png"class="img-fluid">
+
+    </div>
+    <div class="col shadow">
+      <img src="images/ic6.png"class="img-fluid">
+
+    </div>
+    <div class="col shadow">
+      <img src="images/ic7.png"class="img-fluid">
+
+    </div>
+  </div>
+
+</div><br><br>
+<div class="container-fluid oyoy">
+<div class="container text-center">
+  <div class="d-flex justify-content-center align-items-center gap-3 shadow heloo_hello">
+    <img src="images/l1.jpg" class="top_hello_hello">
+    <div>
+  <h1 class="fw-semibold text-primary">SCHEDULE YOUR SITE VISIT</h1>
+  <p>
+    If you are interested in a site visit, please contact us immediately or visit us at the following link to get assistance from our executives and learn more about our project and the benefits you will receive here with us.
+  </p>
+  <a href="#"><button class="make_call  data-bs-toggle="modal" data-bs-target="#enmodel"">MAKE A CALL</button></a>
+ <a href="#"> <button class="make_call  data-bs-toggle="modal" data-bs-target="#enmodel"">DOWNLOAD BROCHURE</button></a>
+</div>
+  </div>
+</div>
+</div>
+<div class="container-fluid  on_on">
+  <div class="container d-flex  gap-5">
+    <h1 class="text-white fw-semibold fs-3">SPECIAL LAUNCH OFFERS ON 
+      LIMITED INVENTORY</h1>
+    <h1 class="text-white fw-semibold fs-3">Phone: +919896216660 <br>
+Site Address:<br>
+NH-205A, Banur-Landran Road,<br>
+Adj. Bharat Petrol Pump, Near Upcoming<br> Aerocity Extension, Mohali</h1>
+
+
+</div>
+<div>
+  <p class="text-center p-5 text-white">Copyright © 2022 - Smartcity. All Rights Reserved.<br>
+Terms & Conditions | Privacy Policy</p>
+</div>
+</div>
+
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+ 
